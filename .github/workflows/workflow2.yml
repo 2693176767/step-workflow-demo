@@ -1,5 +1,5 @@
 name:use workflow1
-on: [push]
+on: push
 jobs:
   jobs:
     job1:
