@@ -1,0 +1,15 @@
+name:use workflow1
+on: [push]
+jobs:
+  jobs:
+    job1:
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo 
+    job2:
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo "workflow1 success"
+      needs: job1
+
+
