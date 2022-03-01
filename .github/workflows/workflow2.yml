@@ -5,7 +5,7 @@ jobs:
     job1:
       runs-on: ubuntu-latest
       steps:
-        - run: workflow1.yml
+        - run: [GitHub Actions Demo]
     job2:
       runs-on: ubuntu-latest
       steps:
